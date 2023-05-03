@@ -73,11 +73,11 @@
             this.sideBarPanel.Controls.Add(this.payroll);
             this.sideBarPanel.Controls.Add(this.addEmployee);
             this.sideBarPanel.Controls.Add(this.logoPanel);
-            this.sideBarPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.sideBarPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sideBarPanel.Location = new System.Drawing.Point(0, 0);
+            this.sideBarPanel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.sideBarPanel.Name = "sideBarPanel";
-            this.sideBarPanel.Size = new System.Drawing.Size(176, 555);
+            this.sideBarPanel.Size = new System.Drawing.Size(205, 640);
             this.sideBarPanel.TabIndex = 0;
             this.sideBarPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OnMouseDown);
             this.sideBarPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnMouseMove);
@@ -90,12 +90,13 @@
             this.btnGenerateReport.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
             this.btnGenerateReport.FlatAppearance.BorderSize = 0;
             this.btnGenerateReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGenerateReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerateReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGenerateReport.ForeColor = System.Drawing.Color.White;
             this.btnGenerateReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGenerateReport.Location = new System.Drawing.Point(2, 151);
+            this.btnGenerateReport.Location = new System.Drawing.Point(2, 174);
+            this.btnGenerateReport.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGenerateReport.Name = "btnGenerateReport";
-            this.btnGenerateReport.Size = new System.Drawing.Size(173, 40);
+            this.btnGenerateReport.Size = new System.Drawing.Size(202, 46);
             this.btnGenerateReport.TabIndex = 2;
             this.btnGenerateReport.Text = "Generate Report";
             this.btnGenerateReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -109,12 +110,13 @@
             this.payroll.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
             this.payroll.FlatAppearance.BorderSize = 0;
             this.payroll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.payroll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.payroll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.payroll.ForeColor = System.Drawing.Color.White;
             this.payroll.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.payroll.Location = new System.Drawing.Point(2, 105);
+            this.payroll.Location = new System.Drawing.Point(2, 121);
+            this.payroll.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.payroll.Name = "payroll";
-            this.payroll.Size = new System.Drawing.Size(173, 40);
+            this.payroll.Size = new System.Drawing.Size(202, 46);
             this.payroll.TabIndex = 1;
             this.payroll.Text = "Generate Payroll";
             this.payroll.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,12 +130,13 @@
             this.addEmployee.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
             this.addEmployee.FlatAppearance.BorderSize = 0;
             this.addEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.addEmployee.ForeColor = System.Drawing.Color.White;
             this.addEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addEmployee.Location = new System.Drawing.Point(2, 59);
+            this.addEmployee.Location = new System.Drawing.Point(2, 68);
+            this.addEmployee.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.addEmployee.Name = "addEmployee";
-            this.addEmployee.Size = new System.Drawing.Size(173, 40);
+            this.addEmployee.Size = new System.Drawing.Size(202, 46);
             this.addEmployee.TabIndex = 1;
             this.addEmployee.Text = "Add Employee";
             this.addEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -145,11 +148,11 @@
             this.logoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(120)))), ((int)(((byte)(53)))));
             this.logoPanel.Controls.Add(this.picBoxLogo);
             this.logoPanel.Controls.Add(this.lblLogo);
-            this.logoPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.logoPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.logoPanel.Location = new System.Drawing.Point(0, 0);
+            this.logoPanel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.logoPanel.Name = "logoPanel";
-            this.logoPanel.Size = new System.Drawing.Size(176, 53);
+            this.logoPanel.Size = new System.Drawing.Size(205, 61);
             this.logoPanel.TabIndex = 0;
             this.logoPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OnMouseDown);
             this.logoPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnMouseMove);
@@ -158,9 +161,10 @@
             // picBoxLogo
             // 
             this.picBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("picBoxLogo.Image")));
-            this.picBoxLogo.Location = new System.Drawing.Point(3, 1);
+            this.picBoxLogo.Location = new System.Drawing.Point(4, 1);
+            this.picBoxLogo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.picBoxLogo.Name = "picBoxLogo";
-            this.picBoxLogo.Size = new System.Drawing.Size(60, 50);
+            this.picBoxLogo.Size = new System.Drawing.Size(70, 58);
             this.picBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxLogo.TabIndex = 1;
             this.picBoxLogo.TabStop = false;
@@ -171,9 +175,10 @@
             // lblLogo
             // 
             this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblLogo.ForeColor = System.Drawing.Color.White;
-            this.lblLogo.Location = new System.Drawing.Point(67, 8);
+            this.lblLogo.Location = new System.Drawing.Point(78, 9);
+            this.lblLogo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLogo.Name = "lblLogo";
             this.lblLogo.Size = new System.Drawing.Size(80, 33);
             this.lblLogo.TabIndex = 0;
@@ -190,12 +195,13 @@
             this.importEmployees.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
             this.importEmployees.FlatAppearance.BorderSize = 0;
             this.importEmployees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.importEmployees.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.importEmployees.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.importEmployees.ForeColor = System.Drawing.Color.White;
             this.importEmployees.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.importEmployees.Location = new System.Drawing.Point(627, 453);
+            this.importEmployees.Location = new System.Drawing.Point(732, 523);
+            this.importEmployees.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.importEmployees.Name = "importEmployees";
-            this.importEmployees.Size = new System.Drawing.Size(134, 40);
+            this.importEmployees.Size = new System.Drawing.Size(156, 46);
             this.importEmployees.TabIndex = 1;
             this.importEmployees.Text = "Import Data";
             this.importEmployees.UseVisualStyleBackColor = false;
@@ -212,12 +218,13 @@
             this.exportData.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
             this.exportData.FlatAppearance.BorderSize = 0;
             this.exportData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exportData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exportData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.exportData.ForeColor = System.Drawing.Color.White;
             this.exportData.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.exportData.Location = new System.Drawing.Point(480, 453);
+            this.exportData.Location = new System.Drawing.Point(560, 523);
+            this.exportData.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.exportData.Name = "exportData";
-            this.exportData.Size = new System.Drawing.Size(134, 40);
+            this.exportData.Size = new System.Drawing.Size(156, 46);
             this.exportData.TabIndex = 1;
             this.exportData.Text = "Export Data";
             this.exportData.UseVisualStyleBackColor = false;
@@ -232,11 +239,11 @@
             this.headerPanel.Controls.Add(this.header);
             this.headerPanel.Controls.Add(this.lblMinimize);
             this.headerPanel.Controls.Add(this.lblClose);
-            this.headerPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.headerPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.headerPanel.Location = new System.Drawing.Point(176, 0);
+            this.headerPanel.Location = new System.Drawing.Point(205, 0);
+            this.headerPanel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(1046, 53);
+            this.headerPanel.Size = new System.Drawing.Size(1221, 61);
             this.headerPanel.TabIndex = 1;
             this.headerPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OnMouseDown);
             this.headerPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnMouseMove);
@@ -245,9 +252,10 @@
             // header
             // 
             this.header.AutoSize = true;
-            this.header.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.header.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
-            this.header.Location = new System.Drawing.Point(229, 8);
+            this.header.Location = new System.Drawing.Point(267, 9);
+            this.header.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.header.Name = "header";
             this.header.Size = new System.Drawing.Size(428, 33);
             this.header.TabIndex = 2;
@@ -260,8 +268,9 @@
             // 
             this.lblMinimize.AutoSize = true;
             this.lblMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMinimize.Location = new System.Drawing.Point(995, 3);
+            this.lblMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMinimize.Location = new System.Drawing.Point(1161, 3);
+            this.lblMinimize.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMinimize.Name = "lblMinimize";
             this.lblMinimize.Size = new System.Drawing.Size(19, 25);
             this.lblMinimize.TabIndex = 1;
@@ -275,8 +284,9 @@
             // 
             this.lblClose.AutoSize = true;
             this.lblClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClose.Location = new System.Drawing.Point(1018, 3);
+            this.lblClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblClose.Location = new System.Drawing.Point(1188, 3);
+            this.lblClose.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClose.Name = "lblClose";
             this.lblClose.Size = new System.Drawing.Size(23, 25);
             this.lblClose.TabIndex = 0;
@@ -290,9 +300,10 @@
             // 
             this.containerPanel.Controls.Add(this.panel1);
             this.containerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.containerPanel.Location = new System.Drawing.Point(176, 53);
+            this.containerPanel.Location = new System.Drawing.Point(205, 61);
+            this.containerPanel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.containerPanel.Name = "containerPanel";
-            this.containerPanel.Size = new System.Drawing.Size(1046, 502);
+            this.containerPanel.Size = new System.Drawing.Size(1221, 579);
             this.containerPanel.TabIndex = 2;
             // 
             // panel1
@@ -304,8 +315,9 @@
             this.panel1.Controls.Add(this.btnDelete);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1046, 502);
+            this.panel1.Size = new System.Drawing.Size(1221, 579);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OnMouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnMouseMove);
@@ -315,7 +327,7 @@
             // 
             this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
+            this.dataGridView.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.dataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -332,11 +344,12 @@
             this.dataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.dataGridView.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.dataGridView.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridView.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView.Size = new System.Drawing.Size(1046, 440);
+            this.dataGridView.Size = new System.Drawing.Size(1220, 508);
             this.dataGridView.TabIndex = 4;
             this.dataGridView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OnMouseDown);
             this.dataGridView.MouseMove += new System.Windows.Forms.MouseEventHandler(this.OnMouseMove);
@@ -408,12 +421,13 @@
             this.btnEdit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
             this.btnEdit.FlatAppearance.BorderSize = 0;
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEdit.ForeColor = System.Drawing.Color.White;
             this.btnEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEdit.Location = new System.Drawing.Point(773, 453);
+            this.btnEdit.Location = new System.Drawing.Point(902, 523);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(120, 40);
+            this.btnEdit.Size = new System.Drawing.Size(140, 46);
             this.btnEdit.TabIndex = 6;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
@@ -430,12 +444,13 @@
             this.btnDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(43)))), ((int)(((byte)(55)))));
             this.btnDelete.FlatAppearance.BorderSize = 0;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(906, 453);
+            this.btnDelete.Location = new System.Drawing.Point(1057, 523);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(120, 40);
+            this.btnDelete.Size = new System.Drawing.Size(140, 46);
             this.btnDelete.TabIndex = 5;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -446,15 +461,15 @@
             // 
             // EmployeeSysMainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1222, 555);
+            this.ClientSize = new System.Drawing.Size(1426, 640);
             this.Controls.Add(this.containerPanel);
             this.Controls.Add(this.headerPanel);
             this.Controls.Add(this.sideBarPanel);
-            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "EmployeeSysMainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Employee Management System";
