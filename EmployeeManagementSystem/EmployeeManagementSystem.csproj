@@ -10,15 +10,6 @@
     <ProjectReference Include="..\EmployeeManagementSystem.Data\EmployeeManagementSystem.Data.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="EmployeeManagementSystem\Form1.cs" />
-    <Compile Remove="EmployeeManagementSystem\Form1.Designer.cs" />
-    <Compile Remove="EmployeeManagementSystem\Program.cs" />
-    <Compile Remove="EmployeeManagementSystem\Properties\AssemblyInfo.cs" />
-    <Compile Remove="EmployeeManagementSystem\Properties\Resources.Designer.cs" />
-    <Compile Remove="EmployeeManagementSystem\Properties\Settings.Designer.cs" />
-    <EmbeddedResource Remove="EmployeeManagementSystem\Properties\Resources.resx" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Maikebing.System.Windows.Forms.DataVisualization" Version="5.0.1" />
   </ItemGroup>
 </Project>
